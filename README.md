@@ -19,7 +19,7 @@ npm run dev
 ## Test
 
 ```bash
-curl -X POST http://localhost:5000/orders \
+curl -X POST http://localhost:5000/v1/order/create \
   -H "Content-Type: application/json" \
   -d '{"product": "iPhone", "quantity": 2, "price": 1200}'
 ```
